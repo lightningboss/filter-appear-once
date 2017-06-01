@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "mocha ./*.tests.js --compilers js:babel-core/register -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2"
+  },
+  "name": "filter-appear-once",
+  "version": "0.0.1",
+  "description": "Returns all strings that only appear once in two arrays",
+  "main": "filter-appear-once.js",
+  "author": "Marc Nitzsche",
+  "license": "MIT"
+}
