@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "mocha ./*.tests.js --compilers js:babel-core/register -w",
+    "test": "mocha ./lib/**/*.tests.js --compilers js:babel-core/register",
+    "test:watch": "mocha ./lib/**/*.tests.js --compilers js:babel-core/register -w",
     "build": "babel src -d lib"
   },
   "dependencies": {},

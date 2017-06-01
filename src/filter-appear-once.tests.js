@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import { filterElementsThatAppearOnce, numberOfOccurrencesInArray } from './filter-students';
+import { filterElementsThatAppearOnce, numberOfOccurrencesInArray } from './filter-appear-once';
 
 describe('numberOfOccurrencesInArray', function() {
     // It only works with strings
